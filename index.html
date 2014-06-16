@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="searchApp">
+<head>
+    <meta charset="utf-8">
+    <title>Twitter search</title>
+    <link rel="stylesheet" href="css/searchApp.css">
+    <link rel="stylesheet" href="css/bootstrap-united.css">
+</head>
+<body>
+
+  <div class="container">
+    <br>
+	<br>
+    <div ng-view></div>
+  </div>
+
+  <script src="js/lib/jquery-1.10.2.min.js"></script>
+  <script src="js/lib/angular.min.js"></script>
+  <script src="js/lib/angular-sanitize.min.js"></script>
+  <script src="js/lib/ng-infinite-scroll.min.js"></script>
+  <script src="js/searchApp.js"></script>
+  <script src="js/controllers/NavController.js"></script>
+  <script src="js/controllers/TwitterController.js"></script>
+  <script src="js/controllers/StackController.js"></script>
+  <script src="js/lib/elastic.min.js"></script>
+  <script src="js/lib/elastic-angular-client.min.js"></script>
+
+</body>
+</html>
